@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What can you offer</title>
+
+    <!-- This is my own style sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/803cada9a6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="Logo">
+            <img src="images/logo.jpg" width="75rm" alt="Logo for Work Freelance">
+        </div>
+        <div>
+        <div>
+            <nav>
+            <h3>
+                <a href="#" class="navbutton1"><i class="fa-solid fa-person-walking-dashed-line-arrow-right"></i></a>
+                <a href="#" class="navbutton1"><i class="fa-solid fa-cash-register"></i></a>
+                <a href="#" class="navbutton1"><i class="fa-solid fa-user-pen"></i></a>
+            </h3>
+            </nav>
+        </div>
+        <nav>
+            <a href="/Register.html" class="navbutton">Register</a>
+            <a href="#" class="navbutton">About</a>
+            <a href="#" class="navbutton">Conact</a>
+        </nav>
+    </div>
+    </header>
+    <div>
+        <div class="row">
+            <div class="column1" style="background-color:rgb(50, 37, 102);">
+                <h3>Register</h3>
+                <h1>
+                    <i class="fa-solid fa-user-pen"></i>
+                </h1>
+            </div>
+            <div class="column2" style="background-color:rgb(101, 76, 204);">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <input type="radio" id="html" name="fav_gender" value="male">
+                    <label for="html">Male</label><br>
+                    <input type="radio" id="css" name="fav_gender" value="female">
+                    <label for="css">Female</label><br>
+                    <input type="radio" id="javascript" name="fav_gender" value="none">
+                    <label for="javascript">Non disclose</label>
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" placeholder="20" min="18">
+
+            </div>
+            <div class="column3" style="background-color:#bbb;">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="sweden">Sweden</option>
+                  <option value="usa">USA</option>
+                </select>
+                <label for="state">State</label>
+                <select id="state" name="state">
+                    <option value="kronnoberg">Kronoberg</option>
+                    <option value="skane">Skane</option>
+                    <option value="uppsala">Uppsala</option>
+                  </select>
+                  <label for="city">City</label>
+                  <select id="city" name="city">
+                    <option value="alvesta">Alvesta</option>
+                    <option value="lund">Lund</option>
+                    <option value="melmo">Melmo</option>
+                    <option value="vaxjo">Vaxjo</option>
+                    <option value="Tierp">Tierp</option>                    
+                  </select>
+                <input type="submit" value="Submit">
+            </form>
+            </div>
+
+            <div class="regform">
+                <nav>
+                <a href="#" class="navbutton">Back</a>
+                <a href="#" class="navbutton">Next</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div> 
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2022 - Service Offering Portal (Louis Lim) - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+</body>
+</html>
